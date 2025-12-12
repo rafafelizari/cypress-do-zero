@@ -4,5 +4,6 @@ it("Acessar projeto específico e criar tarefas", () => {
     cy.get('#root input[type="email"]').type("tedagaw982@reifide.com");
     cy.get('#root input[type="password"]').type("123");
    cy.get('#root button[type="submit"]');
+   //oi
 });
 });
