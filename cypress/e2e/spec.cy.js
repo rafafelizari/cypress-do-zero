@@ -3,11 +3,11 @@ Cypress.on('uncaught:exception', (err, runnable) => {
   // quando detectar erros no site/aplicação
   return false
 })
-describe('Teste de Login InCicle', () => {
+describe('Teste de Solicitar Feedback', () => {
 
   beforeEach(() => {
     cy.visit('https://account.inciclebeta.com/')
-    cy.get('#root input[type="email"]').type('tedagaw982@reifide.com')
+    cy.get('#root input[type="email"]').type('helokoy534@naqulu.com')
     cy.get('#root input[type="password"]').type('123')
     cy.get('#root button[type="submit"]').click()
 
